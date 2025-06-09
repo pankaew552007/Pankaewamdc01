@@ -1,0 +1,9 @@
+class Animal:
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
+
+
+Animal = Animal("แมว" , "สัตว์เลี้ยงลูกด้วยนม")
+print(Animal.name)      
+print(Animal.species)   
